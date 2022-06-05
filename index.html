@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tenes una pyme, sos emprendedor o laburas vendiendo? Calcula el precio que deberias poner para poder saber cuanto ganas en cada venta."
+    />
+    <meta name="author" content="Ariel Trujillo" />
+    <meta
+      name="keywords"
+      content="margen, ganancia, ventas, compras, productos, inflacion, porcentaje"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://priceando.netlify.app/" />
+    <meta property="og:title" content="Priceando, cuánto le agrego?" />
+    <meta
+      property="og:description"
+      content="Tenes una pyme, sos emprendedor o laburas vendiendo? Calcula el precio que deberias poner para poder saber cuanto ganas en cada venta."
+    />
+    <meta property="og:image" content="/favicon.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:url" content="https://priceando.netlify.app/" />
+    <meta property="twitter:title" content="Priceando, cuánto le agrego?" />
+    <meta
+      property="twitter:descriptin"
+      content="Tenes una pyme, sos emprendedor o laburas vendiendo? Calcula el precio que deberias poner para poder saber cuanto ganas en cada venta."
+    />
+    <meta property="twitter:image" content="/favicon.png" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <meta name="msapplication-TileColor" content="#00aba9" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Priceando, cuanto le agrego?</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="contenedor-back">
+      <div class="contenedor">
+        <!-- <header>
+        <nav>
+          <ul>
+            <li>¿como es esto posible?</li>
+            <li>calcula tu nuevo precio con inflacion **proximamente**</li>
+          </ul>
+        </nav>
+      </header> -->
+        <h1>Priceando</h1>
+        <section class="principal">
+          <p class="intro">
+            Acá vas a poder calcular el precio que deberias poner para ganar el
+            margen (%) deseado.
+          </p>
+          <form action="post" id="formulario">
+            <span>¿Cuanto te costo el producto?</span>
+            <input type="number" name="" id="costo" />
+            <span>¿Cuanto porcentaje te gustaria ganar?</span>
+            <input type="number" id="porcentaje" />
+            <div class="botones">
+              <button type="submit" class="buttonResult">Ver precio</button>
+              <button type="reset" class="reset">Reiniciar</button>
+            </div>
+            <div class="final"></div>
+          </form>
+          <div class="msg"></div>
+        </section>
+        <section class="secundario">
+          <p class="intro">
+            En esta parte, vas a poder identificar el margen (%) real que
+            pusiste y poder saber tu ganancia.
+          </p>
+          <form action="post" id="formulario2">
+            <span>Ingresá el precio que pagaste por el producto</span>
+            <input type="number" name="" id="costoProducto" />
+            <span>Ingresá el precio que le pusiste al producto</span>
+            <input type="number" name="" id="precioProducto" />
+            <div class="botones">
+              <button type="submit" class="buttonMargen">Ver margen</button>
+              <button type="reset" class="reset">Reiniciar</button>
+            </div>
+            <div class="final2"></div>
+          </form>
+          <div class="msg2"></div>
+        </section>
+      </div>
+    </div>
+    <footer>
+      <a href="https://cafecito.app/truman" rel="noopener" target="_blank"
+        ><img
+          srcset="
+            https://cdn.cafecito.app/imgs/buttons/button_5.png       1x,
+            https://cdn.cafecito.app/imgs/buttons/button_5_2x.png    2x,
+            https://cdn.cafecito.app/imgs/buttons/button_5_3.75x.png 3.75x
+          "
+          src="https://cdn.cafecito.app/imgs/buttons/button_5.png"
+          alt="Invitame un café en cafecito.app"
+      /></a>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
