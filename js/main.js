@@ -50,8 +50,7 @@ const calculo2 = () => {
   costoProducto = document.getElementById("costoProducto").value;
   if (
     precioProducto > 0 &&
-    costoProducto > 0 &&
-    precioProducto > costoProducto
+    costoProducto > 0
   ) {
     margen = ((precioProducto - costoProducto) / precioProducto) * 100;
     diferencia = precioProducto - costoProducto;
