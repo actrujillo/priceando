@@ -5,4 +5,6 @@ En cuanto a la funcionalidad, entiendo que puede tener alguna falla pero si se l
 Espero con muchas ansias que sea de uso comun para todos y todas en este contexto inflacionario que te quita tiempo para seguir creciendo.
 Se encuentra abierta a la comunidad para quien quiera solucionar algun bug presente.
 
+https://comoestaeltiempo.netlify.app/
+
 Truman, Trujillo Ariel 2022.
